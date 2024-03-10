@@ -1,8 +1,8 @@
 **YouTube-Data-Harvesting**<br>
-YouTube Data Harvesting and Warehousing using jupyter notebook,VS Code,pymysql,MongoDB and Streamlit
+YouTube Data Harvesting and Warehousing using jupyter notebook,VS Code,pymysql,MongoDB and Streamlit<br>
 
 **Overview**<br>
-This project focuses on harvesting data from YouTube channels using the YouTube API, processing the data, and warehousing it. The harvested data is initially stored locally in a MongoDB database as documents and is then converted into SQL records for in-depth data analysis. The project's core functionality relies on the Extract, Transform, Load (ETL) process.
+This project focuses on harvesting data from YouTube channels using the YouTube API, processing the data, and warehousing it. The harvested data is initially stored locally in a MongoDB database as documents and is then converted into SQL records for in-depth data analysis. The project's core functionality relies on the Extract, Transform, Load (ETL) process.<br>
 
 **Key Features**<br>
 -Harvest data from YouTube channels using the YouTube API.<br>
@@ -12,12 +12,12 @@ This project focuses on harvesting data from YouTube channels using the YouTube 
 -Provide a user-friendly interface for data harvesting and migration using Streamlit.<br>
 
 **Getting Started**<br>
-**Ensure the necessary Python modules are installed:**<br>
-pip install streamlit pandas pymongo pymysql google-api-python-client isodate
+**Install/Import Modules:Ensure the necessary Python modules are installed:**<br>
+pip install streamlit pandas pymongo pymysql google-api-python-client isodate<br>
 **Database Setup:**<br>
-Ensure you have access to a local MongoDB instance and have set up a local mysql DBMS on your environment.
+Ensure you have access to a local MongoDB instance and have set up a local mysql DBMS on your environment.<br>
 
-**Technical Steps to Execute the Project:**
+**Technical Steps to Execute the Project:**<br>
 **Step 1: Install/Import Modules**<br>
 Ensure the required Python modules are installed: Streamlit, Pandas, PyMongo, Pymysql, Googleapiclient, and Isodate.<br>
 **Step 2: Utilize the "YT2SQL" Class**<br>
