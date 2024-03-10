@@ -1,5 +1,4 @@
 **YouTube-Data-Harvesting**<br>
-
 YouTube Data Harvesting and Warehousing using jupyter notebook,VS Code,pymysql,MongoDB and Streamlit
 
 **Overview**<br>
@@ -12,33 +11,26 @@ Convert MongoDB documents into SQL records for further analysis.<br>
 Perform Extract, Transform, Load (ETL) operations on the harvested data.<br>
 Provide a user-friendly interface for data harvesting and migration using Streamlit.<br>
 
-**Getting Started**
-
+**Getting Started**<br>
 **Ensure the necessary Python modules are installed:**<br>
 pip install streamlit pandas pymongo pymysql google-api-python-client isodate
-
 **Database Setup:**<br>
 Ensure you have access to a local MongoDB instance and have set up a local mysql DBMS on your environment.
 
 **Technical Steps to Execute the Project:**
-
 **Step 1: Install/Import Modules**<br>
 Ensure the required Python modules are installed: Streamlit, Pandas, PyMongo, Pymysql, Googleapiclient, and Isodate.
-
 **Step 2: Utilize the "YT2SQL" Class**<br>
 The project utilizes the "YT2SQL" class, which contains 11 methods, each with specific functionality for data extraction and transformation. These methods cover tasks like data retrieval, data storage, and data analysis.
-
 **Step 3: Run the Project with Streamlit**<br>
 Open the command prompt in the directory where "Youtube.py" is located.
 Execute the command:
 streamlit run "Youtube.py"
 This will open a web browser,Microsoft Edge, displaying the project's user interface.
-
 **Step 4: Configure Databases**<br>
 Ensure that you are connected to both the local MongoDB instance and your local mysql DBMS.
 
 **Methods:**<br>
-
 1.Get YouTube Channel Data: Fetches YouTube channel data using a Channel ID and creates channel details in JSON format.<br>
 2.Get Video and Comment Details: Returns video and comment details for the given video IDs.<br>
 3.Get All Channel Details: Provides channel, video, and comment details in JSON format.<br>
@@ -53,7 +45,6 @@ Ensure that you are connected to both the local MongoDB instance and your local 
 12.Delete SQL Records: Deletes local SQL records related to the provided YouTube channel data with various options.<br>
 
 **Skills Covered:**
-
 Python (Scripting) <br>
 Data Collection <br>
 MongoDB <br>
